@@ -1,0 +1,225 @@
+@media (max-width:413px) {
+  html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  
+    font-family: Roboto;
+  
+    height:2000px;
+    background: rgb(167,17,17);
+    background: radial-gradient(circle, rgba(167,17,17,1) 8%, rgba(124,14,90,1) 35%, rgba(35,9,121,1) 66%, rgba(0,0,0,1) 100%);
+  }
+  
+  /* --------Home-------- */
+  
+  .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    height: 745px;
+    padding-left: 550px;
+  }
+  
+  .navbar {
+    display: flex;
+    margin-bottom: 20px;
+    padding-right: 120px;
+    gap: 100px;
+  }
+  
+  .navbar  a {
+    z-index: 100;
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+  }
+  
+  
+  .NamePicInfo {
+  
+    display: flex;
+    
+  }
+  
+  .joshuabora {
+    display: flex;
+    z-index: 100;
+    color: white;
+    flex-direction: column;
+    padding-left: 140px;
+    padding-Top: 80px;
+  }
+  
+  .Joshua {
+    font-size: 170px;
+    width: 500px;
+    font-family: Babylonica;
+  }
+  
+  .Bora {
+    font-size: 170px;
+    width: 500px;
+    padding-left: 200px;
+    font-family: Babylonica;
+  }
+  
+  .HomeProfilPic {
+    display: flex;
+    position: absolute;
+    left: 150px;
+    top: 20px;
+  }
+  
+  .intro {
+    display: flex;
+    z-index: 100;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    align-items: center;
+    width: 200px;
+    padding: 0 300px 0 0px;
+  }
+  
+  /* -------My Work-------- */
+  
+  .Mywork {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 200px;
+    height: 1345px;
+  }
+  
+  .Myworktext{
+    display: flex;
+    font-size: 70px;
+    font-weight: 500;
+    margin: 10px 0 0 100px;
+    color: white;
+    width: 400px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: 400px;
+    gap: 30px;
+    align-items: center;
+    height: 845px;
+    width: 1600px;
+    transform: scale(1.7);
+  }
+  
+  
+  
+  .workcard1 {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
+    transition: 500ms;
+  
+    background: rgb(255,46,0);
+    background: linear-gradient(180deg, rgba(255,46,0,1) 8%, rgba(121,9,9,1) 50%, rgba(0,0,0,1) 100%);
+  }
+  
+  .workcard2 {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
+    transition: 500ms;
+  
+    background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 46%, rgba(255,93,0,1) 72%, rgba(255,255,255,1) 91%);
+  }
+  
+  .workcard1:hover, .workcard2:hover {
+    transform: scale(1.2);
+  }
+  
+  .SiteName, .langUsed {
+    font-size: 25px;
+    color: white;
+    padding: 10px 0 10px 10px;
+  }
+  
+  .Visit {
+    display: flex;
+    width: 300px;
+    height: 80px;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 900;
+    border-radius: 150px;
+    border-style: none;
+    color: white;
+    background: rgb(255,46,0);
+    cursor: pointer;
+  }
+  
+  
+  /* ------Contact me------- */
+  
+  .contactpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 745px;
+    margin-top: 400px;
+    margin-left: 460px;
+  }
+  
+  .ContactMeText {
+    font-size: 80px;
+    color: white;
+    padding: 0 0 200px 120px;
+    width: 500px;
+  }
+  
+  .socials {
+    display: flex;
+    justify-content:center ;
+    gap: 100px;
+    width: 50%;
+    height: 100%;
+    margin-left: 50px;
+  
+  }
+  
+  .socials a {
+    font-size: 100px;
+    color: white;
+  }
+}
